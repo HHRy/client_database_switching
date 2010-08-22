@@ -23,4 +23,17 @@ Then, add in your Application Controller:
 	prepend_before_filter :choose_database_from_host
 </pre>
 
+YAML File Format
+----------------
+Databases config files must take the following form:
+
+<pre>
+	# Contents of ryanstenhouse.eu.yml
+	database_details:
+	  adapter: mysql
+	  database: client_db_name
+	  username: root
+	  password:
+</pre>
+
 [1]: http://ryanstenhouse.eu/tutorials/2010/02/07/dynamic-database-switching-rails-how-to-do-it/

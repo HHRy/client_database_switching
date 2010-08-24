@@ -3,7 +3,9 @@ Client Database Switching
 
 How to automatically switch client databases using Rails.
 
-This is the code that accompanies my [Tutorial on the matter][1].
+This is the code that accompanies my [Tutorial on the matter][1] and is based on the orignal
+solution [Mark Somerville][2] wrote at [PCCL][3] in 2007.
+
 
 Usage:
 ------
@@ -37,3 +39,5 @@ Databases config files must take the following form:
 </pre>
 
 [1]: http://ryanstenhouse.eu/tutorials/2010/02/07/dynamic-database-switching-rails-how-to-do-it/
+[2]: http://mark.scottishclimbs.com
+[3]: http://www.pccl.co.uk

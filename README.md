@@ -11,8 +11,8 @@ Usage:
 ------
 
 1. Install as a plugin
-2. Create Directory Rails.root.to_s/config/databases
-3. Create Rails.root.to_s/config/databases/localhost.yml
+2. Create Directory /config/databases in your Rails app root
+3. Create /config/databases/localhost.yml in your Rails app root
 4. With contents:
 
 <pre>
